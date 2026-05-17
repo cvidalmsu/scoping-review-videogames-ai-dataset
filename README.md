@@ -1,6 +1,6 @@
 # AI-Assisted Tools in the Video Game Development Process (2020–2025)
 
-This repository contains the datasets, coding files, bibliographic metadata, and supplementary materials associated with the scoping review:
+This repository contains the datasets, bibliographic resources, and supplementary material associated with the scoping review:
 
 > **AI-Assisted Tools in the Video Game Development Process: A Scoping Review (2020–2025)**
 
@@ -10,7 +10,7 @@ This repository contains the datasets, coding files, bibliographic metadata, and
 
 This study systematically analyzes research published between **2020 and 2025**, identifying how artificial intelligence (AI) techniques are applied to support different stages of the video game development lifecycle.
 
-The review follows the **PRISMA-ScR framework** and includes a final corpus of **135 primary studies** after a multi-stage screening and eligibility process.
+The review follows the **PRISMA-ScR framework** and includes a final corpus of **135 primary studies** after a rigorous multi-stage screening and eligibility process.
 
 The repository provides the material required to support transparency, reproducibility, and future extensions of the review.
 
@@ -22,63 +22,34 @@ The repository provides the material required to support transparency, reproduci
 
 Structured datasets organized by time period.
 
+---
+
 ### `/data/2020-2024`
 
-Original dataset used in the primary review phase.
+Original dataset corresponding to the first review phase.
 
-Files may include:
+Files included:
 
-- `ScopingReview.xlsx`
-- `Articulos_SCOPING_sin_duplicados.xlsx`
-- `ACM_export.csv`
-- `IEEE_export.csv`
-- `SCOPUS_export.csv`
-- `WOS_export.csv`
+- `ACM_export.csv` → Records exported from ACM Digital Library
+- `IEEE_export.csv` → Records exported from IEEE Xplore
+- `SCOPUS_export.csv` → Records exported from SCOPUS
+- `WOS_export.csv` → Records exported from Web of Science
+- `Articulos_SCOPING_sin_duplicados.xlsx` → Deduplicated records after preprocessing
+- `ScopingReview.xlsx` → Master review dataset including screening and coding information
+
+---
 
 ### `/data/2025`
 
 Extended dataset corresponding to the 2025 update.
 
-Files may include:
+Files included:
 
-- `All Articles.xlsx`
-- `ACM.xlsx`
-- `IEEE.xlsx`
-- `SCOPUS.xlsx`
-- `WOS.xlsx`
-
-This separation enables:
-
-- Replication of the original review phase
-- Temporal comparison between datasets
-- Longitudinal analysis of AI trends in game development
-
----
-
-## `/metadata`
-
-Metadata and screening information associated with the review process.
-
-Suggested files include:
-
-- `included_studies_2020_2024.csv`
-- `included_studies_2025.csv`
-- `excluded_studies_2020_2024.csv`
-- `excluded_studies_2025.csv`
-- `screening_log.csv`
-- `doi_list.csv`
-
-This repository does **not** redistribute publisher copyrighted full-text PDF articles.
-
-Instead, it provides:
-
-- Bibliographic metadata
-- DOI information
-- Screening decisions
-- Coding results
-- Structured datasets
-
-to support reproducibility of the review process.
+- `ACM.xlsx` → ACM records for 2025
+- `IEEE.xlsx` → IEEE Xplore records for 2025
+- `SCOPUS.xlsx` → SCOPUS records for 2025
+- `WOS.xlsx` → Web of Science records for 2025
+- `All Articles.xlsx` → Consolidated dataset for the 2025 extension
 
 ---
 
@@ -86,9 +57,13 @@ to support reproducibility of the review process.
 
 Bibliographic resources used in the manuscript.
 
-Files may include:
+Files included:
 
-- `references.bib`
+- `bibi2_citado.bib` → References explicitly cited in the manuscript
+- `bibi2_NC_2020_2024.bib` → Non-cited references associated with the 2020–2024 dataset
+- `bibi2_NC_2025.bib` → Non-cited references associated with the 2025 dataset
+
+This separation supports transparency regarding cited and non-cited studies considered during the review process.
 
 ---
 
@@ -96,13 +71,11 @@ Files may include:
 
 Supplementary material associated with the publication.
 
-Files may include:
+Files included:
 
-- PRISMA-related material
-- Coding schemes
-- Aggregated tables
-- Additional figures
-- Supplementary appendices
+- `Supplementary_IEEE_Access___VidalBarrigaBesoain.pdf`
+
+The supplementary material contains additional tables, coding information, and supporting content referenced throughout the manuscript.
 
 ---
 
@@ -153,7 +126,7 @@ The review follows the PRISMA-ScR methodology, including:
 4. Full-text eligibility assessment
 5. Structured data extraction and coding
 
-The final dataset includes:
+The final review dataset includes:
 
 - **697 identified records**
 - **293 duplicate records removed**
@@ -184,13 +157,14 @@ This repository supports reproducibility by providing:
 
 - Raw database exports
 - Deduplicated datasets
-- Screening decisions
+- Bibliographic metadata
 - Coding schemes
-- Aggregated metadata
-- Bibliographic references
 - Supplementary material
+- Structured review data
 
-Full-text PDFs are intentionally excluded due to publisher copyright restrictions.
+This repository does **not** redistribute copyrighted publisher full-text articles.
+
+Users are responsible for accessing original publications through their respective publishers, indexing services, or institutional subscriptions.
 
 ---
 
@@ -203,8 +177,8 @@ The repository explicitly distinguishes between:
 
 This structure enables:
 
-- Replication of the original study
-- Longitudinal analysis of research trends
+- Replication of the original review phase
+- Longitudinal analysis of AI trends in game development
 - Future dataset extensions
 
 ---
@@ -229,9 +203,9 @@ University of Talca, Chile
 
 This repository is intended exclusively for academic and non-commercial research purposes.
 
-The repository does not redistribute copyrighted publisher PDF files.
+The repository does not redistribute copyrighted publisher PDF articles.
 
-Users are responsible for accessing original publications through their respective publishers or indexing services.
+Users are responsible for complying with the copyright policies of the corresponding publishers.
 
 ---
 

@@ -1,6 +1,9 @@
 # PDFs
 *.pdf
 
+# Allow supplementary material PDF
+!supplementary/Supplementary_IEEE_Access___VidalBarrigaBesoain.pdf
+
 # Overleaf / LaTeX
 *.aux
 *.bbl
