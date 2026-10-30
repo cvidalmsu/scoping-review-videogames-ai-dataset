@@ -10,7 +10,7 @@ This repository contains the datasets, bibliographic resources, and supplementar
 
 This study systematically analyzes research published between **2020 and 2025**, identifying how artificial intelligence (AI) techniques are applied to support different stages of the video game development lifecycle.
 
-The review follows the **PRISMA-ScR framework** and includes a final corpus of **135 primary studies** after a rigorous multi-stage screening and eligibility process.
+The review follows the **PRISMA-ScR framework** and includes a final corpus of **135 included publications** after a rigorous multi-stage screening and eligibility process.
 
 The repository provides the material required to support transparency, reproducibility, and future extensions of the review.
 
